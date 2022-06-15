@@ -44,7 +44,7 @@ function find(event) {
   if (searchInput.value) {
     searchCity(searchInput.value);
   } else {
-    alert("please type a city");
+    alert("Please type a city");
   }
 }
 let form = document.querySelector("#request-form");
